@@ -4,6 +4,7 @@ import Authlayout from './layutes/Authlayout'
 import { Login } from './pages/auth/Login'
 import Dashbordlayute from './layutes/Dashbordlayute'
 import Dashbord from './pages/dashbord/Dashbord'
+import Profile from './pages/dashbord/Profile'
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
 
         <Route path='/' element = {<Dashbordlayute/>}>
           <Route path="/dashbord" element={<Dashbord/> }/>
+          <Route path="/dashbord" element={<Profile/> }/>
         </Route>
 
       </Routes>
