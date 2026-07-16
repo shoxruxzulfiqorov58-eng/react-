@@ -5,9 +5,9 @@ import { NavLink } from 'react-router-dom'
 const Saidbar = () => {
   return (
 <div>
-  <aside className='w-72 bg-white border-r flex flex-col'>
+  <aside className='w-72 bg-white flex flex-col'>
     
-     <div className="h-20 flex items-center justify-center border-b">
+     <div className="h-20 flex items-center justify-center ">
        <h1 className="text-2xl font-bold text-blue-600">
          Frontend LMS
        </h1>

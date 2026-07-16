@@ -11,7 +11,7 @@ const Header = () => {
         <div className='flex items-center gap-4'>
            {<Bell />}
            <h1 className="text-[18px] text-[#333] font-semibold">Shoxrux <br /> Zulfiqorov</h1>
-           <img src="https://share.google/tdY0HJp8TvBFaS7" alt="rasm" className="w-10 h-10 rounded-full" />
+           <img src="https://img.magnific.com/premium-vector/man-avatar-profile-picture-isolated-background-avatar-profile-picture-man_1293239-4841.jpg?semt=ais_hybrid&w=740&q=80" alt="rasm" className="w-10 h-10 rounded-full" />
         </div>
     </div>
   )
